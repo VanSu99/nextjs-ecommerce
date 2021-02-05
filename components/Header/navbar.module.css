@@ -1,0 +1,74 @@
+.banner__top {
+  background: #fff;
+  border-bottom: 1px solid #aaa;
+  box-shadow: 0px 1px 2px #d1d1d1;
+  height: 80px;
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar__menu {
+  color: #333;
+}
+
+.navbar__brand {
+  display: block;
+}
+
+.navbar__brand img {
+  width: 10rem;
+  height: 4rem;
+  object-fit: cover;
+}
+
+.menu__right {
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.nav__btn_login {
+  display: inline-block;
+  outline: none;
+  color: rgb(41, 121, 255);
+  border: 2px solid currentColor;
+  border-radius: 50px;
+  background-color: #fff;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.nav__link_cart {
+  width: 130%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav__link_cart:hover {
+  text-decoration: none;
+}
+
+.nav__link_cart > i {
+  font-size: 28px;
+}
+
+.nav__link_cart .cart__count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(228, 30, 30);
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}

@@ -1,0 +1,48 @@
+.card {
+  background: #ffffff;
+  overflow: hidden;
+  transition: all 0.2 ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0.0625rem 20px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transform: translateY(-0.0625rem);
+  transform: translateY(-0.0625rem);
+}
+
+.imgCard {
+  padding: 10px;
+}
+
+.imgItem {
+  width: 100%;
+  height: 270px;
+}
+
+.content {
+  padding: 10px 5px 10px 8px;
+}
+
+.content p {
+  font-size: 1.9rem;
+}
+
+.content h4 {
+  font-size: 25px;
+  line-height: 1.15rem;
+  height: 45px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content h4 > a {
+  text-decoration: none;
+  color: #333;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}

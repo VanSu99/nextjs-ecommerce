@@ -1,0 +1,29 @@
+.mu__banner_km {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mu__banner_km > div {
+  flex: 1;
+  background: #cccccce3;
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.mu__banner_km > img {
+  width: 92%;
+}
+
+.mu__imgThumbnail {
+  object-fit: contain;
+  border: 1px solid #ccc;
+}
+
+.mu__imgThumbnail.active {
+  padding: 2px;
+}

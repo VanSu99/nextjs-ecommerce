@@ -1,0 +1,11 @@
+.cartContainer {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.cartInfo {
+  border: 1px solid #cccccc;
+  padding: 30px;
+  font-size: 1.9rem;
+}
